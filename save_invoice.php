@@ -14,16 +14,27 @@ $sql="insert into invoice (
         '".$_POST['number']."',
         '".$_POST['expend']."')";
 
-echo  $sql;
-$res=$pdo->exec($sql);
-
-if($res==1){
+if(!empty($POST['expend'])){
+     
+    echo  $sql;
+    $res=$pdo->exec($sql);
+    
     echo "新增成功";
+    echo "<a href='index.php'>繼續輸入</a><br>";
+    echo "<a href='list.php'>發票列表</a><br>";
+    // if($res==1){
+    // }   
 }
 else{
     echo "新增失敗";
 }
 
+echo "<hr>";
 
+// $sql="delete from invoice where id='2'";
+// $res=$pdo->exec($sql);
+// echo $sql;
+
+// echo "<hr>"
 
 ?>
