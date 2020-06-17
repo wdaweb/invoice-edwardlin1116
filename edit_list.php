@@ -7,8 +7,8 @@
     <title>統一發票管理系統</title>
     <link rel="stylesheet" href="plugin/bootstrap.min.css">
     <link rel="stylesheet" href="plugin/custom.css">
-    <!-- <script src="plugin/bootstrap.min.js"></script> -->
-    <!-- <script src="plugin/jquery-3.5.1.min.js"></script> -->
+    <script src="plugin/bootstrap.min.js"></script>
+    <script src="plugin/jquery-3.5.1.min.js"></script>
     <script src="plugin/bootstrap.bundle.min.js"></script>
 </head>
 

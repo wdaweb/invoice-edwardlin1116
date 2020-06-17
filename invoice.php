@@ -22,7 +22,6 @@ $year=date("Y");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>統一發票管理系統</title>
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="plugin/bootstrap.min.css">
     <link rel="stylesheet" href="plugin/custom.css">
     <script src="plugin/bootstrap.min.js"></script>
