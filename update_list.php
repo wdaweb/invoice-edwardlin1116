@@ -2,7 +2,7 @@
 include "./com/base.php";
 
 $data=[
-    
+    'id'=>$_POST['id'],
     'period'=>$_POST['period'],
     'year'=>$_POST['year'],
     'code'=>$_POST['code'],
@@ -10,17 +10,13 @@ $data=[
     'expend'=>$_POST['expend'],
 ];
 $res=save("invoice",$data);
+// echo $res;
 
-if($res==1){
-     
-    echo "新增成功";
-    echo "<a href='index.php'>繼續輸入</a><br>";
-    echo "<a href='list.php'>發票列表</a><br>";
-    // if($res==1){
-    // }   
+if($res>0){
+    to("list.php");
 }
 else{
-    echo "新增失敗";
+    echo "修改失敗";
 }
 
 echo "<hr>";
