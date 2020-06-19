@@ -22,9 +22,9 @@
                 <li class="nav-item">
                     <a class="nav-link text-white" href="invoice.php">各期獎號</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link text-white" href="award.php">對獎</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link text-white" href="index.php">回首頁</a>
                 </li>
@@ -73,7 +73,6 @@
             </div>           
         </form>
     </div>
-
 </body>
 
 </html>
